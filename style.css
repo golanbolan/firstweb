@@ -1,0 +1,51 @@
+.round-img{
+    border-radius: 50%;
+}
+.fns-1{
+    font-size: 6rem;
+}
+.fns-2{
+    font-size: 1.5rem;
+}
+.fns-3{
+    font-size: 1rem;
+}
+.fns-4{
+    font-size: 0.5rem;
+}
+.fns-5{
+    font-size: 0.25rem;
+}
+.fns-6{
+    font-size: 0.125rem;
+}
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-card{
+    background-color: #EEF7FF;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resume-card-title{
+    background-color: #FFFFFF;
+}
+.equal-height {
+    display: flex;
+    flex-wrap:nowrap;
+}
+@media screen and (max-width: 992px) {
+    .equal-height {
+        display: flex;
+        flex-wrap:wrap;
+    }
+  }
+.equal-height div {
+    display: flex;
+    flex-direction: column;
+}
